@@ -14,5 +14,5 @@ Modification Mot de passe<br>
 Consultation des Reservation dans l'espace client <br>
 Reservation d'une destination<br>
 Consultation d'une page de Destination<br>
-Recherche d'une destination en fonction du pays et non du titre<br>
+Recherche d'une destination en fonction du pays<br>
 Rajout d'une destination depuis l'espace client<br>
