@@ -11,6 +11,7 @@
 <body>
 <?php
 include 'connexionBDD.php';
+include '../vue/menu.html';
 $id = $_GET['id']; 
 
 $lesLigne = $conn->query("SELECT logement.urlPhotoPrincipal,logement.urlPhotoSecondaire, logement.typeLogement,logement.nbchambre,voyage.Nom, voyage.Description, voyage.Pays, voyage.prix FROM `voyage` INNER JOIN logement ON voyage.idVoyage = logement.idLogement WHERE voyage.idVoyage =$id");
@@ -30,7 +31,7 @@ foreach($lesLigne as $uneLigne){
     echo "<br>";
     echo $uneLigne['prix']."/nuit";
     echo "<br>";
-    echo "<form action='../vue/formulaire_Reservation.html'>";
+    echo "<form action='../vue/formulaire_Reservation.php'>";
     echo "<button type='submit' class='bg-transparent hover:bg-green-600 hover:text-white py-2 px-4 text-green-600 border-solid border-2 border-green-600 rounded-full '>Réserver</button>";
     echo '</form>';
  }

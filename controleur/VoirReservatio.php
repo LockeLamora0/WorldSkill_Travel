@@ -33,6 +33,7 @@ $lesLigne = $conn->query("SELECT * FROM `client` INNER JOIN reservation ON clien
             echo "<p ><span class='font-bold'>date du départ du voyageur : </span>".$uneLigne["date"]."</p>";
             echo "<p ><span class='font-bold'>heure du départ du voyageur : </span>".$uneLigne["heure"]."</p>";
             echo "<p ><span class='font-bold'>nombre de Personne : </span>".$uneLigne["nbVisiteur"]."</p>";
+            echo "-------------------------------------------------------";
         }
     ?>
 </body>

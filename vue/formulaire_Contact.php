@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <?php include('./vue/menu.html') ?>
+    <?php include('menu.html') ?>
 
     <h2 class="text-green-600 text-center">Réservation</h2>
     <form action="../controleur/mailenvoi.php" method="post">

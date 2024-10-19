@@ -12,5 +12,5 @@ $id = $_GET['id'];
 
 
 $stmt->execute();
-header("Location:../vue/formulaire_connexion.html");
+header("Location:../vue/formulaire_connexion.php");
 ?>

@@ -32,7 +32,7 @@ $lesLigne = $conn->query("SELECT * FROM `voyage`  ");
             
             echo "<h4 class='text-green-600 font-bold'>".$uneLigne['Nom']."</h4>";
             echo "<p>".$uneLigne['Description']."</p>";
-            echo "<p>".$uneLigne['prix']."/nuit</p>";
+            echo "<p>".$uneLigne['prix']." €/nuit</p>";
             $id = $uneLigne['idVoyage'];
             $url="controleur/page_voyage.php?id=$id" ;
             echo '<form action='.$url.' method="POST">';

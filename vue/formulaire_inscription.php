@@ -9,7 +9,22 @@
 
 </head>
 <body>
-    <?php include('./vue/menu.html') ?>
+    <?php include('menu.html') ?>
+
+<!--     
+    <div id="menu" >
+        <nav>
+            <ul class="sm:self-center text-x1">
+                <li class="sm:inline-block space-x-10"><a href="../index.php" class="p-3 hover:text-green-600"><img src="../images/Vintage_and_Retro_Holiday_Travel_Agent_Logo-removebg-preview.png" alt="logo" height="50px" width="50px"></a></li>
+                <li class="sm:inline-block space-x-10"><a href="#" class="p-3 hover:text-green-600">idée voyage selon le métier</a></li>
+                <li class="sm:inline-block space-x-10"><a href="./vue/formulaire_Contact.php" class="p-3 hover:text-green-600">Nous Contacter</a></li>
+                <li class="sm:inline-block"><a href="#" class="p-3 hover:text-green-600">a propos</a></li>
+            
+                <li class="sm:inline-block"><a href="./formulaire_inscription.php" class="p-3 hover:text-green-600">Inscription</a></li>
+                <li class="sm:inline-block"><a href="./formulaire_connexion.php" class="p-3 hover:text-green-600">connexion</a></li>
+            </ul>
+        </nav>
+    </div> -->
 
     <h2 class="text-green-600 text-center">Inscription</h2>
     <div class="rounded-full shadow-xl h-auto w-auto">

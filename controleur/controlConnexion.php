@@ -13,7 +13,7 @@ if($result == true && $_POST['mail'] == $resultat['mail']){
     header("Location:espaceClient.php?id=".$resultat['id']);
 }else{
     echo "mot de passe incorrect";
-    header("Location:../vue/formulaire_connexion.html");
+    header("Location:../vue/formulaire_connexion.php");
 }
 
 ?>
