@@ -22,6 +22,9 @@ $lesLigne = $conn->query("SELECT * FROM `voyage` WHERE Pays LIKE '%$dest%'");
 </head>
 <body>
     <?php 
+    if(empty($lesLigne)){
+        echo "aucun resultat";
+    }else{
         foreach($lesLigne as $uneLigne){
             echo "<div class='p-20 bg-purple-100 w-full md:w-1/2 shadow-xl' >";
             $img = $uneLigne['urlPreview'];
@@ -40,5 +43,7 @@ $lesLigne = $conn->query("SELECT * FROM `voyage` WHERE Pays LIKE '%$dest%'");
             echo "</div>";
             echo "<br>";
         }
+    }
+        
     ?>
 </body>
