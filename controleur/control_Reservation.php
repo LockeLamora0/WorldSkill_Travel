@@ -4,6 +4,7 @@ include 'connexionBDD.php';
     session_start();
     if(empty($_SESSION["idUser"])){
         echo "erreur veiller vous connecter";
+        header("Location:../vue/formulaire_connexion");
 
     }else{
         $stmt = $conn->prepare("INSERT INTO `reservation`(`nomReservation`, `prenomReservation`, `mailReservation`, `TéléphoneReservation`, `date`, `heure`, `nbVisiteur`,`idClient`) VALUES (:Nom, :prenom, :mail, :telephone, :laDate, :heure, :nbVisiteur, :idClient)");

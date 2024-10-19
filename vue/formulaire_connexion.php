@@ -19,5 +19,6 @@
         <br>
         <button type="submit" class="bg-transparent hover:bg-green-600 hover:text-white py-2 px-4 text-green-600 border-solid border-2 border-green-600 rounded-full ">Connexion</button>
     </form>
+    <?php echo "les utilisateur que l'on crée ne marche pas, pour acceder a l'espace client utiliser adminWeb2@gmail.com mdp: Admin";?>
 </body>
 </html>

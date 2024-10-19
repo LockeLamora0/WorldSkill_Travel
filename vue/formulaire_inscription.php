@@ -37,6 +37,7 @@
                 <br>
                 <input type="text" name="address" placeholder="address" class="border-solid border-2 border-green-600 rounded-lg text-center">
                 <input type="text" name="CP" placeholder="Code Postal" class="border-solid border-2 border-green-600 rounded-lg text-center">
+                <input type="text" name="img" placeholder="url photo de profil" class="border-solid border-2 border-green-600 rounded-lg text-center">
                 <br>
                 <input type="text" name="Mdp" placeholder="Mot de passe" class="border-solid border-2 border-green-600 rounded-lg text-center">
                 <br>

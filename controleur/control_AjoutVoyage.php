@@ -1,5 +1,6 @@
 <?php
 include 'connexionBDD.php';
+session_start();
 
 
 $stmt2 = $conn->prepare("INSERT INTO `voyage`(`Nom`, `Pays`, `Description`, `prix`,`urlPreview`) VALUES (:nomDestination, :pays, :description, :prix, :urlPreview)");

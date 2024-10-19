@@ -34,10 +34,7 @@
     </div>
 
     <div class="bg-white">
-        <?php 
-        session_start();
-        echo $_SESSION["idUser"];
-        ?>
+
         <?php include ('./controleur/card_voyage.php')?>
     </div>
     
