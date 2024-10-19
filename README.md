@@ -1,12 +1,18 @@
 fonctionnalité : 
+<br>
 Consultation des destination 
+<br>
 Formulaire nous contacter 
+<br>
 Inscription utilisateur
+<br>
 Connexion Utilisateur
+<br>
 Espace Client de l'utilisateur 
-Modification Mot de passe
-Consultation des Reservation dans l'espace client 
-Reservation d'une destination
-Consultation d'une page de Destination
-Recherche d'une destination en fonction du pays et non du titre
-Rajout d'une destination depuis l'espace client
+<br>
+Modification Mot de passe<br>
+Consultation des Reservation dans l'espace client <br>
+Reservation d'une destination<br>
+Consultation d'une page de Destination<br>
+Recherche d'une destination en fonction du pays et non du titre<br>
+Rajout d'une destination depuis l'espace client<br>
